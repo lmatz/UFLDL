@@ -26,7 +26,6 @@ function [f,g] = linear_regression(theta, X,y)
       f = f + 1/2*(theta'*X(:,i)-y(i))^2;
       g = g + X(:,i)*(theta'*X(:,i)-y(i));
   end
-    
 end
 
 
